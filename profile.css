@@ -1,0 +1,550 @@
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                font-weight: 400;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-color: #020824 !important;
+                font-size: 16px;
+            }
+            
+            .navbar {
+                display: flex;
+                padding-top: 30px;
+            }
+            
+            .main-logo img {
+                padding-left: 100px;
+                width: 450px;
+                padding-left: 120px;
+            }
+            
+            .element {
+                display: flex;
+                padding-left: 500px;
+                padding-top: 20px;
+                cursor: pointer;
+            }
+            
+            .element li {
+                text-decoration: none;
+                list-style-type: none;
+                color: white;
+                padding-right: 30px;
+                font-size: 20px;
+            }
+            
+            .element :hover {
+                color: #f72585;
+                cursor: pointer;
+            }
+            
+            .element a {
+                text-decoration: none;
+            }
+            
+            .card-information {
+                width: 1845px;
+                height: 250px;
+                background: linear-gradient( -45deg, rgb(5, 38, 93), rgba(5, 38, 93, 0.3));
+            }
+            
+            .profile-pic img {
+                width: 150px;
+                width: 150px;
+                padding-left: 50px;
+                padding-top: 50px;
+                position: absolute;
+            }
+            
+            .banner-pic img {
+                width: 150px;
+                width: 150px;
+                padding-left: 50px;
+                padding-top: 50px;
+                position: absolute;
+            }
+            
+            .text p {
+                text-align: center;
+                color: gray;
+                font-size: 30px;
+                position: absolute;
+                padding-top: 100px;
+                padding-left: 750px;
+            }
+            
+            .text :hover {
+                color: #1de7ea;
+                cursor: pointer;
+            }
+            
+            .name-username {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                color: #fff;
+                padding-left: 210px;
+                padding-top: 100px;
+            }
+            
+            .name p {
+                padding-bottom: 15px;
+                font-size: 28px;
+            }
+            
+            .username p {
+                color: #1de7ea;
+            }
+            
+            .icons {
+                display: flex;
+            }
+            
+            .icon-star img {
+                right: 0;
+                width: 30px;
+                padding-top: 200px;
+                padding-right: 20px;
+            }
+            
+            .icon-2 img {
+                padding-top: 200px;
+                padding-right: 50px;
+            }
+            
+            .box-followers {
+                background: linear-gradient( -45deg, rgb(5, 38, 93), rgba(5, 38, 93, 0.3));
+                color: #fff;
+                width: 130px;
+                height: 130px;
+                margin: 20px 12px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border-radius: 8px;
+            }
+            
+            #text {
+                position: absolute;
+                margin-top: 80px;
+            }
+            
+            #number {
+                margin-top: 40px;
+                color: gray;
+            }
+            
+            .follwers {
+                display: flex;
+                padding-left: 20px;
+                width: 400px;
+            }
+            
+            .follwers :hover {
+                background: linear-gradient(90deg, #48fc8b, #1de7ea);
+                cursor: pointer;
+                transform: scale(1.1);
+            }
+            
+            .profile-section {
+                display: flex;
+            }
+            
+            .sec2 {
+                display: flex;
+            }
+            
+            .info {
+                background: linear-gradient( -45deg, rgb(5, 38, 93), rgba(5, 38, 93, 0.3));
+                color: #fff;
+                width: 270px;
+                height: 600px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border-radius: 8px;
+                display: flex;
+                padding-left: 20px;
+                margin-left: 30px;
+            }
+            
+            .main-title {
+                padding: 0;
+                width: 100%;
+                background: linear-gradient(90deg, #48fc8b, #1de7ea);
+                margin-right: 25px;
+                margin-top: 0px;
+                width: 287px;
+                border-radius: 5px;
+                margin-left: 5px;
+            }
+            
+            .main-title h2 {
+                margin-top: 12px;
+                text-align: center;
+                font-size: 26px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            
+            .name-line {
+                display: flex;
+                width: 350px;
+                margin-top: 25px;
+            }
+            
+            .name-line h3 {
+                margin-left: 30px;
+                margin-top: 15px;
+                font-weight: 500;
+            }
+            
+            .name-line p {
+                padding-left: 15px;
+                padding-top: 18px;
+                color: #1de7ea;
+            }
+            
+            #icons img {
+                padding-top: 060px;
+                width: 50px;
+                width: 40px;
+                padding-right: 15px;
+                height: 40px;
+            }
+            
+            #stat {
+                padding: 0;
+                background: linear-gradient(90deg, #48fc8b, #1de7ea);
+                margin-right: 25px;
+                margin-top: 0px;
+                border-radius: 5px;
+                margin-left: 5px;
+                width: 750px;
+                margin-top: 2px;
+                padding-left: 15px;
+            }
+            
+            .stats {
+                background: linear-gradient( -45deg, rgb(5, 38, 93), rgba(5, 38, 93, 0.3));
+                color: #fff;
+                width: 750px;
+                height: 200px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border-radius: 8px;
+                display: flex;
+                padding-left: 20px;
+                margin-left: 0px;
+                margin-top: 40px;
+            }
+            
+            .container-stats {
+                margin-right: 80%;
+                margin-top: 50px;
+                margin-right: 30px;
+            }
+            
+            #text-stats {
+                margin-top: 15px;
+                padding-left: 12px;
+            }
+            
+            #number-stats {
+                color: gray;
+                text-align: center;
+            }
+            
+            .analyse {
+                display: flex;
+                margin-right: 500px;
+                margin-left: 500px;
+            }
+            
+            .part2 {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            #description {
+                margin-top: 60px;
+                color: gray;
+                font-size: 15px;
+            }
+            
+            .part3 {
+                padding-left: 50px;
+            }
+            
+            #awards {
+                width: 500px;
+            }
+            
+            #detail {
+                background: linear-gradient(90deg, #48fc8b, #1de7ea);
+                border-radius: 5px;
+                margin-left: 5px;
+                margin-top: 2px;
+                padding-left: 15px;
+                width: 500px;
+            }
+            
+            footer {
+                display: flex;
+                color: #fff;
+                height: 450px;
+            }
+            
+            .footer1 {
+                display: flex;
+                flex-direction: column;
+                margin-top: 120px;
+            }
+            
+            .footer1 img {
+                width: 400px;
+            }
+            
+            .footer1 h1 {
+                padding-left: 65px;
+                padding-top: 30px;
+            }
+            
+            .footer1 p {
+                padding-left: 65px;
+                padding-top: 30px;
+                font-weight: lighter;
+            }
+            
+            .footer1 hr {
+                margin-left: 65px;
+                margin-top: 15px;
+            }
+            
+            .contact {
+                padding-left: 65px;
+                padding-top: 15px;
+            }
+            
+            .contact input {
+                border-radius: 5px;
+                width: 250px;
+                height: 35px;
+                background-color: #1b2039;
+                border: none;
+            }
+            
+             ::placeholder {
+                color: rgb(255, 255, 255);
+                opacity: 1;
+                padding-left: 10px;
+            }
+            
+             :-ms-input-placeholder {
+                color: rgb(255, 255, 255);
+            }
+            
+             ::-ms-input-placeholder {
+                color: rgb(255, 255, 255);
+            }
+            
+            .contact button {
+                background: linear-gradient(90deg, #48fc8b, #1de7ea);
+                border: none;
+                width: 100px;
+                height: 35px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            
+            .footer2 {
+                margin-left: 150px;
+                margin-top: 150px;
+            }
+            
+            .footer2 p {
+                margin-top: 15px;
+                cursor: pointer;
+            }
+            
+            .footer2 :hover {
+                color: #f72585;
+            }
+            
+            .social-media-contact button {
+                background-color: transparent;
+                border: none;
+            }
+            
+            .social-media-contact {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .social-media-contact img {
+                width: 40px;
+            }
+            
+            .social-media-contact h1 {
+                padding-left: 150px;
+                padding-top: 30px;
+            }
+            
+            .icons {
+                padding-left: 150px;
+                padding-top: 20px;
+            }
+            
+            .icons button {
+                margin: 10px;
+            }
+            
+            @media screen and (min-width: 451px) and (max-width: 900px) {
+                .card-information {
+                    width: 1050px;
+                }
+                .text {
+                    display: none;
+                }
+                .profile-pic {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .profile-pic img {
+                    padding-top: 170px;
+                }
+                .name-username {
+                    padding-top: 400px;
+                    margin-right: 150px;
+                }
+                .username p {
+                    padding-left: 40px;
+                }
+                .main-logo img {
+                    display: none;
+                }
+                .navbar img {
+                    display: none;
+                }
+                .login {
+                    display: none;
+                }
+                .element {
+                    padding-top: 0px;
+                    padding-left: 330px;
+                    padding-bottom: 15px;
+                }
+                .profile-section {
+                    display: flex;
+                    width: 40%;
+                }
+                .stats {
+                    width: 500px;
+                }
+                #stat {
+                    width: 500px;
+                }
+                .sec2 {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .part3 {
+                    padding-left: 0;
+                }
+                .info {
+                    height: 800px;
+                }
+                footer {
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 270px;
+                }
+                .footer1 {
+                    margin: 0;
+                }
+                .footer1 hr {
+                    display: none;
+                }
+                .footer2 {
+                    display: none;
+                }
+                .social-media-contact h1 {
+                    padding-left: 70px;
+                }
+                .icons {
+                    padding-left: 70px;
+                }
+                #icons {
+                    padding-top: 250px;
+                }
+            }
+            
+            @media screen and (max-width: 450px) {
+                .navbar {
+                    background: #020824;
+                    position: absolute;
+                    left: 0;
+                    top: 5em;
+                    width: 100%;
+                    height: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    opacity: 0;
+                    transition: 0.6s;
+                    overflow: hidden;
+                    z-index: 9;
+                }
+                .profile-section {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .stats {
+                    width: 400px;
+                }
+                #stat {
+                    width: 400px;
+                }
+                .part3 {
+                    padding-left: 0;
+                }
+                footer {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0;
+                    margin: 0;
+                }
+                .footer2 {
+                    margin-left: 60px;
+                    margin-top: 60px;
+                }
+                .social-media-contact {
+                    display: none;
+                }
+                .info {
+                    width: 380px;
+                    padding-left: 0px;
+                }
+                .main-title {
+                    width: 380px;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                }
+                .follwers {
+                    padding-left: 60px;
+                }
+                #detail {
+                    width: 400px;
+                    margin-right: 22px;
+                }
+                #awards {
+                    width: 400px;
+                }
+            }

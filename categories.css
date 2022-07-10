@@ -1,0 +1,632 @@
+                    * {
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    body {
+                        font-weight: 400;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        background-color: #020824 !important;
+                        font-size: 16px;
+                    }
+                    
+                    .navbar {
+                        display: flex;
+                        padding-top: 30px;
+                    }
+                    
+                    .main-logo img {
+                        padding-left: 100px;
+                        width: 450px;
+                        padding-left: 120px;
+                    }
+                    
+                    .image-bg img {
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    
+                    .element {
+                        display: flex;
+                        padding-left: 500px;
+                        padding-top: 20px;
+                        cursor: pointer;
+                    }
+                    
+                    .element li {
+                        text-decoration: none;
+                        list-style-type: none;
+                        color: white;
+                        padding-right: 30px;
+                        font-size: 20px;
+                    }
+                    
+                    .element a {
+                        text-decoration: none;
+                    }
+                    
+                    .element :hover {
+                        color: #f72585;
+                        cursor: pointer;
+                    }
+                    
+                    .login button {
+                        margin-left: 25px;
+                        background: linear-gradient(90deg, #48fc8b, #1de7ea);
+                        border: none;
+                        width: 60px;
+                        height: 30px;
+                        cursor: pointer;
+                        border-radius: 5px;
+                    }
+                    
+                    .login button :hover {
+                        background: #1de7ea;
+                    }
+                    
+                    .part1 {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        background: url(/background.jpg);
+                        height: 300px;
+                        margin-top: 15px;
+                    }
+                    
+                    .main-title h1 {
+                        color: #fff;
+                        margin-top: 60px;
+                    }
+                    
+                    .main-title p {
+                        color: #fff;
+                        padding-top: 15px;
+                        width: 610px;
+                        padding-left: 75px;
+                    }
+                    
+                    .search-bar input {
+                        margin-right: 90px;
+                        margin-top: 35px;
+                        width: 400px;
+                        height: 40px;
+                        border-radius: 5px;
+                        cursor: text;
+                    }
+                    
+                    .search-bar img {
+                        width: 40px;
+                        position: absolute;
+                        padding-top: 38px;
+                        padding-left: 360px;
+                    }
+                    
+                     ::placeholder {
+                        font-style: italic;
+                        font-size: 1em;
+                        color: rgb(0, 0, 0);
+                        background: thistle;
+                        padding-left: 35px;
+                    }
+                    
+                    .part2 {
+                        color: #fff;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 50px;
+                    }
+                    
+                    .part2 h1 {
+                        font-size: 48px;
+                        padding-right: 50px;
+                    }
+                    
+                    .part2 p {
+                        width: 55%;
+                        text-align-last: center;
+                        margin-top: 15px;
+                    }
+                    
+                    .photography-card1 {
+                        display: flex;
+                        flex-direction: column;
+                        color: #fff;
+                        height: 450px;
+                        margin-right: 60px;
+                        margin-top: 60px;
+                        width: 380px;
+                        border: 1px solid #1cd0ff;
+                        border-radius: 10px;
+                        background: linear-gradient( -45deg, rgb(9, 47, 57), rgba(9, 47, 57, 0.3));
+                    }
+                    
+                    .photography-title h1 {
+                        color: #fff;
+                        padding-top: 40px;
+                        padding-left: 20px;
+                        font-size: 36px;
+                    }
+                    
+                    .photography-card1 h3 {
+                        padding-top: 15px;
+                    }
+                    
+                    .photography-card1 img {
+                        width: 380px;
+                    }
+                    
+                    .photography-card1 h3 {
+                        padding-left: 15px;
+                        padding-top: 10px;
+                    }
+                    
+                    .photography-card1 p {
+                        padding-left: 20px;
+                        padding-top: 5px;
+                        font-size: 10px;
+                        color: gray;
+                    }
+                    
+                    .photography-card1 h4 {
+                        color: #1de7ea;
+                        padding-top: 35px;
+                        padding-left: 15px;
+                    }
+                    
+                    .btn-buy button {
+                        background: linear-gradient(90deg, #48fc8b, #1de7ea);
+                        border: none;
+                        width: 100%;
+                        height: 50px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        font-size: 15px;
+                        margin-top: 20px;
+                    }
+                    
+                    .btn-buy :hover {
+                        background: #1de7ea;
+                        color: #ffffff;
+                    }
+                    
+                    .photgraphy-cards {
+                        display: flex;
+                        padding-left: 40px;
+                    }
+                    
+                    .gaming-title h1 {
+                        color: #fff;
+                        padding-top: 40px;
+                        padding-left: 20px;
+                        font-size: 36px;
+                    }
+                    
+                    .gaming-card1 {
+                        display: flex;
+                        flex-direction: column;
+                        color: #fff;
+                        height: 450px;
+                        margin-right: 60px;
+                        margin-top: 60px;
+                        width: 380px;
+                        border: 1px solid #1cd0ff;
+                        border-radius: 10px;
+                        background: linear-gradient( -45deg, rgb(9, 47, 57), rgba(9, 47, 57, 0.3));
+                    }
+                    
+                    .gaming-title h1 {
+                        color: #fff;
+                        padding-top: 40px;
+                        padding-left: 20px;
+                        font-size: 36px;
+                    }
+                    
+                    .gaming-card1 h3 {
+                        padding-top: 15px;
+                    }
+                    
+                    .photography-card2 {
+                        display: flex;
+                        flex-direction: column;
+                        color: #fff;
+                        height: 450px;
+                        margin-right: 60px;
+                        margin-top: 60px;
+                        width: 380px;
+                        border: 1px solid #1cd0ff;
+                        border-radius: 10px;
+                        background: linear-gradient( -45deg, rgb(9, 47, 57), rgba(9, 47, 57, 0.3));
+                    }
+                    
+                    .gaming-card1 h3 {
+                        padding-left: 15px;
+                        padding-top: 10px;
+                    }
+                    
+                    .gaming-card1 p {
+                        padding-left: 20px;
+                        padding-top: 5px;
+                        font-size: 10px;
+                        color: gray;
+                    }
+                    
+                    .gaming-card1 h4 {
+                        color: #1de7ea;
+                        padding-top: 35px;
+                        padding-left: 15px;
+                    }
+                    
+                    .btn-buy button {
+                        background: linear-gradient(90deg, #48fc8b, #1de7ea);
+                        border: none;
+                        width: 100%;
+                        height: 50px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        font-size: 15px;
+                        margin-top: 17px;
+                    }
+                    
+                    .btn-buy :hover {
+                        background: #1de7ea;
+                        color: #ffffff;
+                    }
+                    
+                    .gaming-cards {
+                        display: flex;
+                        padding-left: 40px;
+                    }
+                    
+                    .bighead-card1 h3 {
+                        padding-left: 15px;
+                        padding-top: 10px;
+                    }
+                    
+                    .bighead-card1 {
+                        display: flex;
+                        flex-direction: column;
+                        color: #fff;
+                        height: 450px;
+                        margin-right: 60px;
+                        margin-top: 60px;
+                        width: 380px;
+                        border: 1px solid #1cd0ff;
+                        border-radius: 10px;
+                        background: linear-gradient( -45deg, rgb(9, 47, 57), rgba(9, 47, 57, 0.3));
+                    }
+                    
+                    .bighead-card1 p {
+                        padding-left: 20px;
+                        padding-top: 5px;
+                        font-size: 10px;
+                        color: gray;
+                    }
+                    
+                    .bighead-card1 h4 {
+                        color: #1de7ea;
+                        padding-top: 35px;
+                        padding-left: 15px;
+                    }
+                    
+                    .btn-buy button {
+                        background: linear-gradient(90deg, #48fc8b, #1de7ea);
+                        border: none;
+                        width: 100%;
+                        height: 50px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        font-size: 15px;
+                        margin-top: 17px;
+                    }
+                    
+                    .btn-buy :hover {
+                        background: #1de7ea;
+                        color: #ffffff;
+                    }
+                    
+                    .bighead-cards {
+                        display: flex;
+                        padding-left: 40px;
+                    }
+                    
+                    .photography-card2 {
+                        display: flex;
+                        flex-direction: column;
+                        color: #fff;
+                        height: 450px;
+                        margin-right: 60px;
+                        margin-top: 60px;
+                        width: 380px;
+                        border: 1px solid #1cd0ff;
+                        border-radius: 10px;
+                        background: linear-gradient( -45deg, rgb(9, 47, 57), rgba(9, 47, 57, 0.3));
+                    }
+                    
+                    .part5 {
+                        background: url(background.jpg) center no-repeat;
+                        background-size: cover;
+                        margin-top: 80px;
+                        height: 300px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .title1 h1 {
+                        color: #fff;
+                        text-align: center;
+                        font-size: 40px;
+                        padding-top: 40px;
+                    }
+                    
+                    .title1 p {
+                        text-align: center;
+                        margin-top: 20px;
+                        color: #ffffff;
+                    }
+                    
+                    .title1 input {
+                        width: 400px;
+                        height: 50px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        margin-left: 300px;
+                        margin-top: 40px;
+                    }
+                    
+                    footer {
+                        display: flex;
+                        color: #fff;
+                        height: 450px;
+                    }
+                    
+                    .footer1 {
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: 50px;
+                    }
+                    
+                    .footer1 img {
+                        width: 400px;
+                    }
+                    
+                    .footer1 h1 {
+                        padding-left: 65px;
+                        padding-top: 30px;
+                    }
+                    
+                    .footer1 p {
+                        padding-left: 65px;
+                        padding-top: 30px;
+                        font-weight: lighter;
+                    }
+                    
+                    .footer1 hr {
+                        margin-left: 65px;
+                        margin-top: 15px;
+                    }
+                    
+                    .contact {
+                        padding-left: 65px;
+                        padding-top: 15px;
+                    }
+                    
+                    .contact input {
+                        border-radius: 5px;
+                        width: 250px;
+                        height: 35px;
+                        background-color: #1b2039;
+                        border: none;
+                    }
+                    
+                     ::placeholder {
+                        color: rgb(255, 255, 255);
+                        opacity: 1;
+                        padding-left: 10px;
+                    }
+                    
+                     :-ms-input-placeholder {
+                        color: rgb(255, 255, 255);
+                    }
+                    
+                     ::-ms-input-placeholder {
+                        color: rgb(255, 255, 255);
+                    }
+                    
+                    .contact button {
+                        background: linear-gradient(90deg, #48fc8b, #1de7ea);
+                        border: none;
+                        width: 100px;
+                        height: 35px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+                    
+                    .footer2 {
+                        margin-left: 150px;
+                        margin-top: 150px;
+                    }
+                    
+                    .footer2 p {
+                        margin-top: 15px;
+                        cursor: pointer;
+                    }
+                    
+                    .footer2 :hover {
+                        color: #f72585;
+                    }
+                    
+                    .social-media-contact button {
+                        background-color: transparent;
+                        border: none;
+                    }
+                    
+                    .social-media-contact {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    
+                    .social-media-contact img {
+                        width: 40px;
+                    }
+                    
+                    .social-media-contact h1 {
+                        padding-left: 150px;
+                        padding-top: 30px;
+                    }
+                    
+                    .icons {
+                        padding-left: 150px;
+                        padding-top: 20px;
+                    }
+                    
+                    .icons button {
+                        margin: 10px;
+                    }
+                    
+                    @media screen and (min-width: 451px) and (max-width: 1100px) {
+                        .main-logo img {
+                            display: none;
+                        }
+                        .navbar img {
+                            display: none;
+                        }
+                        .login {
+                            display: none;
+                        }
+                        .element {
+                            padding-left: 300px;
+                            width: 500px;
+                        }
+                        .left-text h1 {
+                            width: 600px;
+                        }
+                        .left-text img {
+                            width: 600px;
+                            padding-bottom: 20px;
+                        }
+                        .part2 h1 {
+                            width: 900px;
+                            padding-left: 20px;
+                            text-align-last: justify;
+                        }
+                        .photgraphy-cards {
+                            display: flex;
+                            flex-wrap: wrap;
+                            width: 900px;
+                            padding-left: 150px;
+                        }
+                        .photography-card1 {
+                            width: 350px;
+                        }
+                        .photography-card1 img {
+                            width: 350px;
+                        }
+                        .btn-buy button {
+                            margin-top: 60px;
+                        }
+                        .gaming-cards {
+                            display: flex;
+                            flex-wrap: wrap;
+                            width: 900px;
+                            padding-left: 150px;
+                        }
+                        .gaming-card1 {
+                            width: 350px;
+                        }
+                        .gaming-card1 img {
+                            width: 350px;
+                        }
+                        .bighead-cards {
+                            display: flex;
+                            flex-wrap: wrap;
+                            width: 900px;
+                            padding-left: 150px;
+                        }
+                        .bighead-card1 {
+                            width: 350px;
+                            height: 600px;
+                        }
+                        .bighead-card1 img {
+                            width: 350px;
+                        }
+                        .title1 input {
+                            margin-left: 330px;
+                        }
+                        .title1 h1 {
+                            padding-left: 30px;
+                        }
+                        footer {
+                            display: flex;
+                            flex-direction: column;
+                            padding-left: 280px;
+                        }
+                        .footer1 hr {
+                            display: none;
+                        }
+                        .footer2 {
+                            display: none;
+                        }
+                        .social-media-contact h1 {
+                            padding-left: 70px;
+                        }
+                        .icons {
+                            padding-left: 70px;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 450px) {
+                        .navbar {
+                            background: #020824;
+                            position: absolute;
+                            left: 0;
+                            top: 5em;
+                            width: 100%;
+                            height: 0;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                            opacity: 0;
+                            transition: 0.6s;
+                            overflow: hidden;
+                            z-index: 9;
+                        }
+                        .photgraphy-cards {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .gaming-cards {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .bighead-cards {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .main-logo footer {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .footer2 {
+                            margin-left: 60px;
+                            margin-top: 30px;
+                        }
+                        .social-media-contact {
+                            display: none;
+                        }
+                        .title1 input {
+                            margin-left: 30px;
+                            margin-top: 20px;
+                        }
+                        .part5 {
+                            height: 350px;
+                        }
+                        .contact button {
+                            margin-top: 15px;
+                        }
+                    }
